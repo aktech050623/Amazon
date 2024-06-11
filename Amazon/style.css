@@ -1,0 +1,174 @@
+
+.contain{
+    background-color: darkgreen;
+     height: 100px;
+     border-radius: 10px;
+     border-color:black;
+     border-style: solid;
+     border-width: 5px;
+     display: flex;
+        
+}
+
+
+.il{
+    height: 100px;
+    margin-left: 10px;
+}
+
+.add{
+    
+    padding-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+     
+}
+
+.search{
+    padding-top: 30px;
+    margin-left: 40px;
+    
+    
+}
+.bt1{
+    background-color: aliceblue;
+
+    display: inline;
+    margin-right: 40px;
+}
+
+#search {
+    font-size:;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all{
+    background-color: gray;
+    padding: 2px;
+    color: white;
+}
+
+#input{
+    padding: 3px;
+    border-radius: 2px;
+}
+#se{
+    font-size: 20px;
+    color: white;
+    padding: 2px 3px 2px 3px;
+    background-color: aqua;
+}
+#i3{
+    background-color:orange;
+    padding: 3px;
+}
+#EN{
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 20px;
+margin-top: 30px;}
+
+
+*{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin-top: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -400px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.grid{
+
+    display: grid;
+    height: 700px;
+    grid-template-columns: auto auto auto auto ;
+    gap: 80px;
+    background-color:#E3E6E6;
+    padding: 20px;
+    margin-top: -300px;
+
+
+  }
+
+  .grid > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 110px;
+    border-radius: 10px;
+  
+  }
+  #description{
+     font-size: 20px;
+     width: 170px;
+     margin-top: -80px;
+  }
+  .gw-card-layout .a-cardui {
+    background: #fff;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+
+._fluid-quad-image-label-v2_style_gridRowOne__1t0zL, ._fluid-quad-image-label-v2_style_gridRowTwo__15woW {
+  height: 50%;
+  overflow: hidden;
+
+
+
+
+
+
+
+  
